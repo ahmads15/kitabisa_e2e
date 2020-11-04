@@ -1,0 +1,23 @@
+{
+  "name": "NewNightwatchJs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "e2e-test": "cucumber-js --require-module babel-core/register --require cucumber.conf.js --require step-definitions --format node_modules/cucumber-pretty"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "chromedriver": "^86.0.0",
+    "cucumber": "^6.0.5",
+    "cucumber-pretty": "^6.0.0",
+    "nightwatch": "^1.4.3",
+    "nightwatch-api": "^3.0.1",
+    "chai": "^4.2.0"
+  }
+}
